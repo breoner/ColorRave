@@ -7,24 +7,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif+Caption:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/reset.css">
 </head>
 <body>
-    <!-- header-logo -->
-    <header>
-        <div class="container">
+    <!-- header-work -->
+    <header class="header">
+        <div class="container header-box">
         <a href="./index.html" class="logo"><img src="./img/logo.png" alt="logo"></a>
         <nav class="nav-header">
             <ul class="header-list">
-                <li class="header-item"><a href="#" class="li-item">Main page</a></li>
+                <li class="header-item"><a href="#" class="main-item">Main page</a></li>
                 <li class="header-item"><a href="#" class="li-item">Benefits</a></li>
                 <li class="header-item"><a href="#" class="li-item">Advantages</a></li>
                 <li class="header-item"><a href="#" class="li-item">Reviews</a></li>
                 <li class="header-item"><a href="#" class="li-item">Contacts</a></li>
                 <li class="header-item"><a href="#" class="li-item">Order</a></li>
-                <li class="header-item"><a href="#" class="li-item">Ua<span>Eng</span></a></li>
+                <li class="header-item"><a href="#" class="li-item">Ua <span> Eng</span></a></li>
             </ul>
         </nav>
     </div>
@@ -32,127 +32,145 @@
     <!-- main-work -->
     <main>
         <!-- section hero -->
-        <section>
+        <section class="hero">
             <div class="container">
-          <img src="./img/logo.png" alt="logo">
-          <p>C&R</p>
-          <h1>ColoRawe Your dream Nike</h1>
-          <p>On this site you can find custom Nike sneakers of your dreams. 
-            The original company caт`t create such beautiful 
+          <img src="./img/logo2.png" alt="logo-hr" class="logo-main">
+          <p class="pre-logo">C&R</p>
+          <h1 class="main-title">ColoRawe</h1>
+          <h2 class="pre-main-title">Your dream Nike</h2>
+          <p class="hero-text">On this site you can find custom Nike sneakers of your dreams.<br>
+            The original company caт`t create such beautiful<br>
             sneakers as we do.<br>
             Good luck finding your way in the world of custom sneakers.</p>
-          <button type="button">Buy my Nike</button>
+          <button type="button" class="hero-btn">Buy my Nike</button>
           </div>
         </section>
         <!-- section quality -->
-        <section>
+        <section class="quality">
             <div class="container">
             <h2 hidden>#</h2>
-            <ul>
-                <li>
-                    <img src="./img/star.png" alt="star">
-                    <p>Premium Quality</p>
+            <ul class="quality-list">
+                <li class="quality-star">
+                    <img src="./img/star.png" alt="star" class="quality-img">
+                    <p class="quality-text">Quality</p>
+                    <p class="quality-text">Premium</p>
                 </li>
-                <li>
-                    <img src="./img/color.png" alt="color">
-                    <p>Indelible paint</p>
+                <li class="quality-color">
+                    <img src="./img/color.png" alt="color" class="quality-img">
+                    <p class="quality-text">Indelible</p>
+                    <p class="quality-text">paint</p>
                 </li>
-                <li>
-                    <img src="./img/car.png" alt="car">
-                    <p>Fast shipping</p>
+                <li class="quality-car">
+                    <img src="./img/car.png" alt="car" class="quality-img">
+                    <p class="quality-text">shipping</p>
+                    <p class="quality-text">Fast</p>
                 </li>
             </ul>
-        </div>
+        </div> 
         </section>
+        <section class="line"></section>
         <!-- section reviews -->
-        <section>
+        <section class="reviews">
             <div class="container">
-            <h2>Reviews</h2>
-           <ul>
-            <li>
-                <p>Sneakers are very 
+            <h2 class="reviems-title">Reviews</h2>
+           <ul class="reviems-list">
+            <li class="reviems-item1">
+                <p class=" reviems-overview">Sneakers are very 
                     comfortable and well 
                     painted, nothing has 
-                    worn off in a year.
-                    25.11</p>
-                <img src="./img/john.png" alt="john">
-                <p>With us from 2018</p>
+                    worn off in a year.</p>
+                    <p class="date-text">25.11</p>
+                <img src="./img/john.png" alt="john" class="employees">
+                <P class="name-text">John Teylor</P>
+                <p class="year-text">With us from 2018</p>
             </li>
-            <li>
-                <p>I'm very happy with this color scheme.
-                    They match all my clothes.
-                    05.01</p>
-                <img src="./img/elizabeth.png" alt="elizabeth">
-                <p>With us from 2020</p>
+            <li class="reviems-item2">
+                <p class=" reviems-overview">I'm very happy with this color scheme.
+                    They match all my clothes.</p>
+                    <p class="date-text">05.01</p>
+                <img src="./img/elizabeth.png" alt="elizabeth" class="employees">
+                <P class="name-text">Elizabeth Garsia</P>
+                <p class="year-text">With us from 2020</p>
             </li>
-            <li>
-                <p>Just right if you need to go to a party.
-                    I use them actively, the paint is super.
-                    18.06</p>
-                <img src="./img/tom.png" alt="tom">
-                <p>With us from 2019</p>
+            <li class="reviems-item3">
+                <p class=" reviems-overview">Just right if you need to go to a party.<br>
+                    I use them actively, the paint is super.</p>
+                    <p class="date-text">18.06</p>
+                <img src="./img/tom.png" alt="tom" class="employees">
+                <p class="name-text">Tom Maquare</p>
+                <p class="year-text">With us from 2019</p>
             </li>
            </ul>
         </div>
         </section>
+        <section class="line-question"></section>
         <!-- form-label -->
-        <section>
+        <section class="form">
             <div class="container">
-            <h2 hidden>#</h2>
-            <form>
-                <label>
-                    <input type="email" placeholder="Write your email">
-                    <input type="button" value="Confirm ">
+            <div class="order-title-div">
+            <h2 class="order-title">Order</h2>
+        </div> 
+            <form class="comment">
+                <label class="comment-item1">
+                    <input type="email" placeholder="Write your email" class="input1">
+                    <input type="button" value="Confirm " class="input-btn">
                 </label>
-                <label>
-                    <input type="text" placeholder="Your Country">
+                <label class="comment-item">
+                    <input type="text" placeholder="Your Country" class="input">
                 </label>
-                <label>
-                    <input type="text" placeholder="Your City">
+                <label class="comment-item">
+                    <input type="text" placeholder="Your City" class="input">
                 </label>
-                <label>
-                    <input type="text" placeholder="Your Adress">
+                <label class="comment-item">
+                    <input type="text" placeholder="Your Adress" class="input">
                 </label>
             </form>
-            <button type="button">Order my Nike</button>
+            <div class="order-div-btn">
+            <button type="button" class="order-btn">Order my Nike</button>
+            </div>
         </div>
         </section>
     </main>
     <!-- footer work -->
-    <footer>
+    <footer class="footer">
         <!-- Question -->
         <div class="container">
-       <ul>
-        <li>
-            <p>Have a question?</p>
+       <ul class="question-list">
+        <li class="question-item">
+            <p class="question-text">Have a question?</p>
         </li>
-        <li>
-            <p>Have a proposal for cooperation?</p>
+        <li class="question-item">
+            <p class="question-text">Have a proposal for cooperation?</p>
         </li>
-        <li>
-            <p>Advertising questions?</p>
+        <li class="question-item">
+            <p class="question-text">Advertising questions?</p>
         </li>
        </ul>
        <!-- Mail -->
-        <ul>
-            <li><a href="mailto:ColoRawe_support@gmail.com">ColoRawe_support@gmail.com</a></li>
-            <li><a href="mailto:ColoRawe_Cooperation@gmail.com">ColoRawe_Cooperation@gmail.com</a></li>
-            <li><a href="mailto:ColoRawe_Advertising@gmail.com">ColoRawe_Advertising@gmail.com</a></li>
+        <ul class="mail-list">
+            <li class="mail-item"><a href="mailto:ColoRawe_support@gmail.com" class="mail-text">ColoRawe_support@gmail.com</a></li>
+            <li class="mail-item"><a href="mailto:ColoRawe_Cooperation@gmail.com" class="mail-text">ColoRawe_Cooperation@gmail.com</a></li>
+            <li class="mail-item"><a href="mailto:ColoRawe_Advertising@gmail.com" class="mail-text">ColoRawe_Advertising@gmail.com</a></li>
         </ul>
         <!-- Logo footer -->
-         <ul>
-            <li>
-                <p>2022 ColoRawe @All rights reserved</p>
+        <section class="line-footer"></section>
+         <ul class="footer-list">
+            <li class="footer-item">
+                <p class="footer-text">2022 ColoRawe @All rights reserved</p>
             </li>
-            <li>
-                <p>United States</p>
+            <li class="footer-item">
+                <p class="footer-text">United States</p>
             </li>
-         </ul>
-         <div>
-            <a href="./index.html"><img src="./img/logo.png" alt="logo"></a>
-             <p>С&R</p>
-         </div>
-        </div>
+            <!-- Logo -->
+            <ul class="logo-list">
+            <li class="logo-item">
+                <a href="./index.html"><img src="./img/logo.png" alt="logo" class="logo-footer"></a>
+            </li>
+             <li class="logo-item">
+                <p class="pre-logo-footer">С&R</p>
+            </li>
+        </ul>
+    </div>
     </footer>
 </body>
 </html>
