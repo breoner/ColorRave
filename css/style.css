@@ -310,7 +310,7 @@ padding-bottom: 11px;
 padding-left: 24px;
 }
 
-.input1{
+.input-first{
     width: 205px;
     border-radius: 50px;
     margin-right: 203px;
@@ -359,12 +359,26 @@ border: none;
 
 .footer{
     background: var(--backgroundfooter-color);
-}
+    padding-top: 45px;
+}    
 /* question Ul */
 .question-list{
     display: flex;
     align-items: start;
-    flex-direction: column;;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logobox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .question-text{
@@ -381,6 +395,7 @@ line-height: normal;
     align-items: center;
     align-items: end;
     flex-direction: column;
+    row-gap: 10px;
 }
 
 .mail-text{
@@ -423,7 +438,7 @@ font-weight: 400;
 line-height: normal;
 }
 
-.logo-list{
+.logo-div-footer{
     display: flex;
     flex-direction: column;
     align-items: end;
