@@ -360,6 +360,7 @@ border: none;
 .footer{
     background: var(--backgroundfooter-color);
     padding-top: 45px;
+    padding-bottom: 50px;
 }    
 /* question Ul */
 .question-list{
